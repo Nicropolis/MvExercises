@@ -10,7 +10,9 @@ namespace Lessson001
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Введите своё имя:\n");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Привет {name}");
         }
     }
 }
